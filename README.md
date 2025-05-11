@@ -48,14 +48,5 @@ Follow these steps to set up and run the project:
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
 
 
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- [Next.js](https://nextjs.org/)
-- [OpenAI](https://openai.com/)
-- [Wikipedia](https://www.wikipedia.org/)
 
 Feel free to contribute and enhance the project!
