@@ -1,16 +1,16 @@
-import './global.css';
+import './globle.css';
 
 export const metadata = {
   title: 'IPL-GPT',
-  description: 'IPL RAG Chatbot',
+  description: 'Ask anything about IPL',
 };
 
 const RootLayout = ({ children }) => {
   return (
-    <html>
+    <html lang="en">
       <body>{children}</body>
     </html>
-  );
-};
+  )
+}
 
 export default RootLayout;

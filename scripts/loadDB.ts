@@ -7,7 +7,9 @@ import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 
 import 'dotenv/config';
 
-const { 
+type SimilarityMetric = 'cosine' | 'dot_product' | 'euclidean';
+
+const {
     ASTRA_DB_NAMESPACE,
     ASTRA_DB_COLLECTION,
     ASTRA_DB_APPLICATION_TOKEN,
@@ -48,7 +50,7 @@ const createCollection = async (
   });
 
   console.log(res);
-};
+};  
 
 const loadSampleData = async () => {
   const collection = await db.collection(ASTRA_DB_COLLECTION);
